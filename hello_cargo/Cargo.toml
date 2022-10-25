@@ -1,0 +1,14 @@
+# The first line, [package], is a section heading that indicates that the following statements are configuring a package
+# The next three lines set the configuration information Cargo needs to compile your program: the name, the version, and the edition of Rust to use
+# We’ll talk about the edition key in Appendix E.
+[package]
+name = "hello_cargo"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+# The last line, [dependencies], is the start of a section for you to list any of your 
+# project’s dependencies. In Rust, packages of code are referred to as crates. 
+# We won’t need any other crates for this project, but we will in the first project in Chapter 2, so we’ll use this dependencies section then.
+[dependencies]
